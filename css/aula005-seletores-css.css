@@ -20,7 +20,13 @@ main p {
 p {
     border: 1px solid gray;
     text-align: justify;
+
     margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+
+    margin: 30px 25px 15px 5px;
 }
 
 a{
