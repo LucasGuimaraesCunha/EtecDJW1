@@ -1,6 +1,33 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(206, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #ff0000; /* RGB -> Red Green Blue */
+    border: 1px solid gray;
+    text-align: center;
+}
+
+main p {
+    font-weight: bold;
+}
+
+p {
+    border: 1px solid gray;
+}
+
 a{
     text-decoration: none;
     color: gray;
+}
+
+main p a {
+    text-decoration: underline;
 }
 
 footer {
