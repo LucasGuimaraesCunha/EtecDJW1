@@ -1,5 +1,16 @@
-body{
-    background-color: rgb(206, 206, 206);
-    font-family: Arial, Helvetica, sans-serif;
+a{
+    text-decoration: none;
+    color: gray;
 }
 
+footer {
+    background-color: white;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+main p a:hover {
+    text-decoration: underline;
+}
