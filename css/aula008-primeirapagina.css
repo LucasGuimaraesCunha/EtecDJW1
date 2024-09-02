@@ -49,6 +49,12 @@ main{
     padding-bottom: 20px;
 }
 
+main #principal {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/Anor-Londo1.webp  ");
+}
+
 footer{
     border-top: 1px solid lightgray;
     padding: 50px;
