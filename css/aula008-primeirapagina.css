@@ -52,7 +52,9 @@ main{
 main #principal {
     width: 100%;
     height: 400px;
-    background-image: url("../img/Anor-Londo1.webp  ");
+    background-image: url("../img/vampetasso-a-trolagem-brasileira-contra-o-preconceito-sofrido-por-vin.webp.webp");
+    background-position: center;
+    background-size: cover;
 }
 
 footer{
