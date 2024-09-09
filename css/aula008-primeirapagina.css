@@ -55,6 +55,25 @@ main #principal {
     background-image: url("../img/vampetasso-a-trolagem-brasileira-contra-o-preconceito-sofrido-por-vin.webp.webp");
     background-position: center;
     background-size: cover;
+
+    text-align: center;
+    padding-top: 120px;
+}
+
+main #principal div {
+    background-color: #0004;
+    color: white;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+main #principal h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+main #principal p{
+    font-size: 20px;
 }
 
 footer{
