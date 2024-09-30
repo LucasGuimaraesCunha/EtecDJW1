@@ -73,6 +73,8 @@ main #principal div{
     line-height: 50px;   
 }
 main #artigos{
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -82,12 +84,14 @@ main #artigos{
     margin: 5px;
 }
 main article{
+    flex-basis: 375px;
     display: inline-block;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 8px;
-    margin-top: 20px;
-    box-shadow: 3px 3px 20px rgb(0, 0, 0);
+    flex-grow: 1;
+    margin: 10px;
     background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px lightgray;
 }
 article div.img{
     width: 100%;
@@ -97,17 +101,17 @@ article div.img{
 }
 #i1{
     background: url("../img/morador-chega-do-trabalho-e-encontra-tamandua-na-calcada-de-casa-em-linhares.jpg") center;
-    height: 250px;
+    background-size: cover;
 }
 #i2{
     background: url("../img/download.jfif") center;
-    height: 250px;
+    background-size: cover;
 }
 #i3{
     background: url("../img/_renderização-3d-de-um-chimpanzé-usando_26627493_high.jpg") center;
-    height: 250px;
+    background-size: cover;
 }
 #i4{
     background: url("../img/Anor-Londo1.webp") center;
-    height: 250px;
+    background-size: cover;
 }
