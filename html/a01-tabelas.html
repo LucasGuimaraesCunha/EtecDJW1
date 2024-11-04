@@ -95,34 +95,39 @@
         }
 
          /* Tabela Completa */
-         .t3 {
+         .t3{
             border-collapse: collapse;
             width: 100%;
             font-size: 25px;
             margin: 30px auto;
-
-         }
-
-         .t3 td {
-            padding: 10px;
-         }
-
-         .t3 th {
-            padding: 10px;
-            color: yellow;
-         }
-
-         .t3 caption{
+            text-align: center;
+        }
+        .t3 caption{
             font-size: 26px;
             font-style: italic;
             color: darkblue;
             background-color: white;
-         }
-
-         .t3 tr:nth-child(2n) {
+        }
+        .t3 tr{
             border-top: 1px solid green;
+            background-color: rgb(229, 225, 225);
+        }
+        .t3 td{
+            padding: 10px;
+        }
+
+        .t3 th {
+            padding: 10px;
+            color: yell;
+        }
+        .t3 tr:nth-child(2n){
             background-color: rgb(203, 231, 199);
-         }
+        }
+        .t3 tfoot th, .t3 tfoot td{
+            background-color: white;
+            
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
@@ -402,12 +407,13 @@
                 </tr>
                 </tbody>
                 <tfoot>
-
+                    <th colspan="4"> Unidades Federativas do Brasil</th>
+                    <td colspan="2">Fonte: Wikipedia <a href="https://pt.wikipedia.org/wiki/Unidades_federativas_do_Brasil" target="blank"></a> </td>
                 </tfoot>
         </section>
     </main>
     <footer>
-        <p>Copyright &copy; 1962 - 2024 - <a href="https://github.com/LucasGuimaraesCunha" target="_blank">Meu github</a></p>
+        <p>Copyright &copy; 1962 - 2024 - <a href="https://github.com/LucasGuimaraesCunha" target="blank">Meu github</a></p>
         <p>Lucas</p>
     </footer>
 </body>
